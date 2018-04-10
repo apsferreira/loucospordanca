@@ -1,0 +1,23 @@
+{
+  "name": "LoucosPorDanca",
+  "version": "0.1.0",
+  "description": "Site do projeto loucos por dança",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o styles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apsferreira/loucospordanca.github.io.git"
+  },
+  "author": "apsferreira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apsferreira/loucospordanca.github.io/issues"
+  },
+  "homepage": "https://github.com/apsferreira/loucospordanca.github.io#readme",
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  }
+}

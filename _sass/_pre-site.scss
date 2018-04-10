@@ -1,0 +1,57 @@
+body{
+    font-family: $base-font;
+    color: $body-text;
+    background: rgba(0,0,0,0);        
+}
+
+.container-mvp{
+    width: 70vw;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 0 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .logo {
+        img {
+            width: 100%;
+            max-width: 350px;
+        }        
+    }
+    .info {
+        text-align: center;
+        p {
+            margin: 10px 0;
+        }
+        .date {
+            font-size: 20px;
+            font-weight: 800;
+            color: #FF9800;
+        }
+    }
+    .letering {
+        margin: 10px 0;        
+        display: inline-block;
+        background-color: red;            
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 2px;
+        -webkit-transition: background-color 2s; /* Safari */
+        transition: background-color 2s;
+    }
+    /*.social{
+        padding: 10px;
+
+        .icon{
+            width: 30px;
+            padding: 0 5px;
+            filter: opacity(.7);
+            transition: filter 2s;
+            &:hover{
+                filter: opacity(1);
+            }
+        }
+    }*/
+
+}
